@@ -21,7 +21,7 @@ return userResponse;
 
 /* document.write('<h3>') + response + ('</h3>'); */
 
-function greeting(){
+function consoleGreeting(){
 
     var person = prompt('Have you purchased a game console?')
     var response;
@@ -42,7 +42,7 @@ function greeting(){
     return userResponse;
     };
 
-    function greeting(){
+    function purchaseGreeting(){
 
         var person = prompt('Have you purchased here before?')
         var response;
