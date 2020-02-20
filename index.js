@@ -12,4 +12,4 @@ if (person === 'yes') {
     response = 'Welcome to my page please continue';
 }
 
-document.write('<h3>') + response + '</h3>');
+document.write('<h3>') + response + ('</h3>');
