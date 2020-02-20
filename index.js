@@ -11,3 +11,5 @@ if (person === 'yes') {
 } else {
     response = 'Welcome to my page please continue';
 }
+
+document.write('<h3>') + response + '</h3>');
