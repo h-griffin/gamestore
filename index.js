@@ -1,4 +1,4 @@
-function greeting(){
+var greeting = function greeting(){
 
 var person = prompt('Do you like games?')
 var response;
@@ -21,7 +21,7 @@ return userResponse;
 
 /* document.write('<h3>') + response + ('</h3>'); */
 
-function consoleGreeting(){
+var consoleGreeting = function consoleGreeting(){
 
     var person = prompt('Have you purchased a game console?')
     var response;
@@ -42,7 +42,7 @@ function consoleGreeting(){
     return userResponse;
     };
 
-    function purchaseGreeting(){
+   var purchaseGreeting = function purchaseGreeting(){
 
         var person = prompt('Have you purchased here before?')
         var response;
