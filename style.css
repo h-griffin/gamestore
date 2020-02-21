@@ -48,14 +48,27 @@ body {
   }
   
   /* Three image containers (use 25% for four, and 50% for two, etc) */
-.section {
+/* .section {
     float: center;
     width: 33.33%;
     padding: 5px;
+  } */
+main{
+  display: inline-block;
+  
+}
+
+  .section{
+    float: left;
+    width: 30%;
   }
 
   article {
       float: right;
       width: 40%;
       border: 1px;
+  }
+
+  img{
+    width: 150px;
   }
